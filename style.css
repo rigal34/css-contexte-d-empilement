@@ -1,0 +1,65 @@
+*/ {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background: gray;
+}
+
+
+
+.box, .otherbox {
+width: 200px;
+height: 200px;
+}
+
+
+
+
+
+.box {
+    background: lightgreen;
+    top: 200px;
+    left: 100px;
+    position: absolute;
+     z-index: 1;
+}
+
+
+
+.child {
+
+    width: 75px;
+    height: 75px;
+    background: orange;
+    position: absolute;
+    left: 150px;
+    z-index: 2;
+}
+
+.otherbox {
+background: crimson;
+top: 200px;
+left: 250px;
+position: absolute;
+ z-index: 1;
+
+}.modal {
+
+position: absolute;
+top: 40%;
+width: 100%;
+background: lightblue;
+text-align: center;
+
+
+}
+
+.contenu {
+
+    height: 100vh;
+    background: rgb(212, 104, 104);
+    /*opacity: 0.99;*/
+    transform: translate(0px);
+}
